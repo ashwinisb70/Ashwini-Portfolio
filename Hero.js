@@ -53,7 +53,7 @@ const Hero = () => {
       <motion.div className="hero-wrapper">
         <motion.div className="hero-content" variants={itemVariants}>
           <motion.h1 variants={itemVariants}>
-            Mallikarjun K <br /> Bendawade.
+            Ashwini <br /> SB.
           </motion.h1>
 
           <motion.h2 variants={itemVariants} className="hero-tagline">
@@ -90,8 +90,8 @@ const Hero = () => {
           style={{ y: ySmooth }}
         >
           <motion.img
-            src="/images/profile.jpg"
-            alt="Mallikarjun Bendawade"
+            src="/images/ashwini.jpg"
+            alt="Ashwini SB"
             whileHover={{ scale: 1.08, rotateY: 10 }}
             transition={{ duration: 0.5 }}
             className="float"

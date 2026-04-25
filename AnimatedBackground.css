@@ -1,0 +1,57 @@
+.animated-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.gradient-blob {
+  position: absolute;
+  filter: blur(100px);
+  opacity: 0.2;
+  mix-blend-mode: screen;
+}
+
+.blob-1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.6), transparent);
+  top: -100px;
+  left: -100px;
+}
+
+.blob-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.4), transparent);
+  bottom: -150px;
+  right: -100px;
+}
+
+.blob-3 {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.5), transparent);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.95) 0%,
+    rgba(15, 23, 42, 0.85) 50%,
+    rgba(15, 23, 42, 0.95) 100%
+  );
+  z-index: 2;
+}
